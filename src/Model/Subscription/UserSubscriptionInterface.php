@@ -12,7 +12,7 @@ interface UserSubscriptionInterface
      *
      * @return UserInterface
      */
-    public function getUser(): UserInterface;
+    public function getUser();
 
     /**
      * Return the hash of this subscription. Can be a fingerprint or a cookie.
